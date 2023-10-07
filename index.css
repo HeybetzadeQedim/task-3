@@ -4,11 +4,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-body {
-
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 .box-container {
   background-image: url(./images/sunset-mountain-landscape-scenery-ai-art-hd-wallpaper-uhdpaper.com-744@1@l.jpg);
   min-height: 100vh;
