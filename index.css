@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Laila:wght@700&family=Open+Sans:wght@400;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(images/sunset-mountain-landscape-scenery-ai-art-hd-wallpaper-uhdpaper.com-744@1@l.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.text-1 {
+  color: #fff;
+  margin-top: 32px;
+  margin-left: 136px;
+  font-family: Laila;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 102.5%;
+}
+ul {
+  display: flex;
+  margin-left: 370px;
+  list-style-type: none;
+  margin-top: 36px;
+}
+ul li:nth-child(2) {
+  margin-left: 76px;
+  margin-right: 69px;
+}
+li {
+  color: #fff;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.main-container {
+  display: flex;
+}
+.image-container {
+  margin-left: 411px;
+  display: flex;
+}
+.image-container img:first-child {
+  margin-top: 54px;
+  margin-right: 34px;
+  width: 36px;
+  height: 36px;
+}
+.image-container img:last-child {
+  margin-top: 48px;
+  width: 48px;
+  height: 48px;
+}
+h1 {
+  color: #fff;
+  margin-left: 360px;
+  margin-top: 160px;
+  width: 779px;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 75px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.text-2 {
+  color: #fff;
+  margin-top: 57px;
+  margin-left: 470px;
+  width: 568px;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.text-3 {
+  color: #fff;
+  margin-left: 630px;
+  margin-top: 39px;
+  border-radius: 10px;
+  background-color: #00A651;
+  display: inline-block;
+  padding: 13px 24px 14px 22px;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
