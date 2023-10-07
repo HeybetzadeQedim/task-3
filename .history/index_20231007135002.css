@@ -4,24 +4,20 @@
   padding: 0;
   box-sizing: border-box;
 }
-.home-page {
-  background-image: url("./images/file-20210115-21-90wsyw.avif");
+.box-container {
+  background-image: url(./images/sunset-mountain-landscape-scenery-ai-art-hd-wallpaper-uhdpaper.com-744@1@l.jpg);
   min-height: 100vh;
   background-size: 100% 100%;
-  padding-top: 200px;
 }
 nav {
-  width: 100%;
-  padding: 20px 135px;
+  padding: 30px 135px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: fixed;
-  top: 0;
-  background-color: black;
 }
 .text-1 {
   color: #fff;
+
   font-family: Laila;
   font-size: 24px;
   font-style: normal;
@@ -31,6 +27,7 @@ nav {
 ul {
   display: flex;
   align-items: center;
+
 }
 ul li:nth-child(2) {
   margin-left: 76px;
@@ -59,13 +56,11 @@ li {
   width: 48px;
   height: 48px;
 }
-main {
-}
 h1 {
   color: #fff;
   width: 779px;
   margin: auto;
-  /* margin-top: 160px; */
+  margin-top: 160px;
 
   text-align: center;
   font-family: Open Sans;
@@ -93,7 +88,7 @@ h1 {
   margin-top: 39px;
   border-radius: 10px;
   background-color: #00a651;
-  display: block;
+  display:block;
   color: #fff;
   text-align: center;
   font-family: Open Sans;

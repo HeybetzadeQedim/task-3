@@ -4,24 +4,21 @@
   padding: 0;
   box-sizing: border-box;
 }
-.home-page {
-  background-image: url("./images/file-20210115-21-90wsyw.avif");
+.box-container {
+  background-image: url(./images/sunset-mountain-landscape-scenery-ai-art-hd-wallpaper-uhdpaper.com-744@1@l.jpg);
   min-height: 100vh;
   background-size: 100% 100%;
-  padding-top: 200px;
 }
 nav {
-  width: 100%;
-  padding: 20px 135px;
+  padding: 30px 135px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: fixed;
-  top: 0;
-  background-color: black;
 }
 .text-1 {
   color: #fff;
+  /* margin-top: 32px;
+  margin-left: 136px; */
   font-family: Laila;
   font-size: 24px;
   font-style: normal;
@@ -31,6 +28,8 @@ nav {
 ul {
   display: flex;
   align-items: center;
+  /* margin-left: 370px; */
+  /* margin-top: 36px; */
 }
 ul li:nth-child(2) {
   margin-left: 76px;
@@ -47,25 +46,27 @@ li {
 }
 
 .image-container {
+  /* margin-left: 411px; */
   display: flex;
   align-items: center;
 }
 .image-container img:first-child {
+  /* margin-top: 54px; */
   margin-right: 34px;
   width: 36px;
   height: 36px;
 }
 .image-container img:last-child {
+  /* margin-top: 48px; */
   width: 48px;
   height: 48px;
 }
-main {
-}
 h1 {
   color: #fff;
+  /* margin-left: 360px; */
   width: 779px;
   margin: auto;
-  /* margin-top: 160px; */
+  margin-top: 160px;
 
   text-align: center;
   font-family: Open Sans;
@@ -78,6 +79,7 @@ h1 {
   color: #fff;
   margin: auto;
   margin-top: 57px;
+  /* margin-left: 470px; */
   width: 568px;
   text-align: center;
   font-family: Open Sans;
@@ -93,7 +95,7 @@ h1 {
   margin-top: 39px;
   border-radius: 10px;
   background-color: #00a651;
-  display: block;
+  display:block;
   color: #fff;
   text-align: center;
   font-family: Open Sans;
