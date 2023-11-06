@@ -165,27 +165,23 @@ h1 {
   display: flex;
 }
 .world-service {
-  padding: 50px 100px;
   background-image: url('./images/245a7aa08f3d2ee82af6f48d0f0864c1.jpg');
  background-repeat: no-repeat;
- background-size: 100% 100%;
- background-attachment: fixed;
+  display: flex;
+justify-content: space-between;
+/* align-items: center; */
 min-height: 100vh;
 
 }
-.world-service .footer{
-  display: flex;
-  justify-content: space-between;
-  margin-top: 40px;
-}
 .world-service .box{
   width: 23%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
-
+.center-img{
+  width: 70%;
+  background-image: url('images/world_map_PNG28\ 1.png');
+background-repeat: no-repeat;
+padding-top: 81px;
+}
 .world-service .text-4 h1 {
   width: 518px;
   color: #000;
@@ -209,7 +205,11 @@ min-height: 100vh;
   font-weight: 400;
   line-height: normal;
 }
-
+.footer {
+  margin-top: 118px;
+  margin-left: 60px;
+  display: flex;
+}
 .footer p {
   color: #000;
   text-align: center;
@@ -220,14 +220,17 @@ min-height: 100vh;
   line-height: normal;
 }
 .world-box {
- 
+  width: 250px;
+  height: 250px;
+  padding: 43px 73px 22px 74px;
   border-radius: 15px;
   background-color: ghostwhite;
 }
 .world-box img {
   width: 42px;
   height: 42px;
- 
+  margin-left: 25px;
+  margin-bottom: 29px;
 }
 .footer h4 {
   color: #000;
@@ -240,32 +243,42 @@ min-height: 100vh;
   line-height: normal;
 }
 .world-box-2 {
-
+  width: 250px;
+  height: 250px;
+  margin-left: 136px;
+  padding: 43px 73px 22px 74px;
   border-radius: 15px;
   background-color: ghostwhite;
 }
 .world-box-2 img {
   width: 43px;
   height: 43px;
-
+  margin-left: 25px;
+  margin-bottom: 32px;
 }
 .world-box-3 {
-
-
+  width: 250px;
+  height: 250px;
+  margin-left: 136px;
+  padding: 43px 73px 22px 74px;
   border-radius: 15px;
   background-color: ghostwhite;
 }
 .world-box-3 img {
   width: 43px;
   height: 43px;
-
+  margin-left: 25px;
+  margin-bottom: 35px;
 }
 .world-box-3 p {
   width: 126px;
   margin-top: 20px;
 }
 .world-box-4 {
- 
+  width: 250px;
+  height: 250px;
+  margin-left: 136px;
+  padding: 43px 73px 22px 74px;
   border-radius: 15px;
   background-color: ghostwhite;
 }

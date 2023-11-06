@@ -165,7 +165,7 @@ h1 {
   display: flex;
 }
 .world-service {
-  padding: 50px 100px;
+  /* padding: 50px 100px; */
   background-image: url('./images/245a7aa08f3d2ee82af6f48d0f0864c1.jpg');
  background-repeat: no-repeat;
  background-size: 100% 100%;
@@ -176,14 +176,9 @@ min-height: 100vh;
 .world-service .footer{
   display: flex;
   justify-content: space-between;
-  margin-top: 40px;
 }
 .world-service .box{
   width: 23%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 .world-service .text-4 h1 {
@@ -265,7 +260,10 @@ min-height: 100vh;
   margin-top: 20px;
 }
 .world-box-4 {
- 
+  width: 250px;
+  height: 250px;
+  margin-left: 136px;
+  padding: 43px 73px 22px 74px;
   border-radius: 15px;
   background-color: ghostwhite;
 }

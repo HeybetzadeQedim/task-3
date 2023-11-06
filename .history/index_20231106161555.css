@@ -176,10 +176,10 @@ min-height: 100vh;
 .world-service .footer{
   display: flex;
   justify-content: space-between;
-  margin-top: 40px;
 }
 .world-service .box{
   width: 23%;
+  padding: ;
   display: flex;
   flex-direction: column;
   justify-content: center;
